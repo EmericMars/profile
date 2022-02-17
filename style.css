@@ -1,0 +1,133 @@
+h1, h2, h3 {
+	font-family: 'Luxurious Roman', cursive;
+	font-weight: 200;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p, a {
+	font-family: 'Luxurious Roman', cursive;
+	font-family: 'Merriweather', serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+#textedefin p {
+	color: grey;
+	opacity: 0.7;
+}
+
+
+
+
+img {
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+}
+
+#test img {
+	width: 222px;
+	height: 152px;
+	border-radius: 12%;
+}
+
+
+
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	display: inline;
+	margin: 0 4px;
+}
+
+
+
+
+
+.btn-gris {
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 8px 32px;
+	border-radius: 6px;
+}
+
+.btn-gris:hover {
+	background-color: black;
+	transition: 0.5s;
+}
+
+
+
+
+
+.container {
+	width:  800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+
+.card-white {
+	background: white;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 0 12px 30px rgba(30, 30, 30, 0.3);
+}
+
+#card-musique {
+	background-image: url(image/imagemusique.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+
+}
+
+#card-musique h1 {
+	color: white;
+	text-shadow: 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030;
+}
+
+#card-musique p {
+	color: white;
+	text-shadow: 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030, 0 0 2px #303030;
+}
+
+
+
+
+
+.logos-réseaux-sociaux {
+	font-size: 32px;
+	color: grey;
+}
+
+.logos-réseaux-sociaux:hover{
+	color: black;
+	transition: 1s;
+}
+
+
+
+
+
+@media (max-width: 720px) {
+	.container {
+		width : 560px;
+	}
+}
+
+@media (max-width: 560px) {
+	.container {
+		width : 320px;
+	}
+}
